@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PorouS Creations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #ffab61;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        section h2 {
+            margin-top: 0;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 10px;
+            margin: 10px;
+            width: 30%;
+            text-align: center;
+        }
+        .product img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .product h3 {
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        footer a {
+            color: #ff6f61;
+            text-decoration: none;
+        }
+        @media (max-width: 768px) {
+            .product {
+                width: 45%;
+            }
+        }
+        @media (max-width: 480px) {
+            .product {
+                width: 90%;
+            }
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PorouS Creations</h1>
+        <p>Unique and Personalized Resin Art</p>
+    </header>
+
+    <nav>
+        <a href="#catalogue">Catalogue</a>
+        <a href="https://www.instagram.com/porous_creations" target="_blank">Instagram</a>
+        <a href="https://wa.me/+918667565172" target="_blank">WhatsApp</a>
+    </nav>
+
+    <section id="catalogue">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="path_to_product_image_1.jpg" alt="Product 1">
+                <h3>Resin Clock</h3>
+                <p>Product Description 1</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="path_to_product_image_2.jpg" alt="Product 2">
+                <h3>AlphabetKeychain</h3>
+                <p>Product Description 2</p>
+                <button>Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="path_to_product_image_3.jpg" alt="Product 3">
+                <h3>varmala preservation</h3>
+                <p>Product Description 3</p>
+                <button>Buy Now</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Follow us on <a href="https://www.instagram.com/porous_creations" target="_blank">Instagram</a> and contact us on <a href="https://wa.me/your_whatsapp_number" target="_blank">WhatsApp</a>.</p>
+        <p>&copy; 2024 PorouS Creations. All rights reserved.</p>
+    </footer>
+</body>
+</html>
